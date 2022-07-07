@@ -4,7 +4,8 @@
 
   --text-primary-color: hsl(212, 21%, 14%);
   --text-secondary-color: hsl(228, 12%, 48%);
-  --text-white-color: hsl(0, 0%, 100%);
+  
+  --white-color: hsl(0, 0%, 100%);
 
   --paragraph-size: 14px;
 
@@ -17,5 +18,16 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--bg-primary-color);
+}
+
+.main-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.product-card-wrapper {
+  background-color: var(--white-color);
+  width: 95%;
 }
