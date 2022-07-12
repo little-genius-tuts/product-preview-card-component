@@ -17,6 +17,9 @@
 
   --font-fraunces: 'Fraunces', serif;
   --bold-weight-fraunces: 700;
+
+  --sm-border-radius: 8px;
+  --md-border-radius: 10px;
 }
 
 /* Global  */
@@ -37,7 +40,13 @@ img {
 
 .product-card-wrapper {
   background-color: var(--white-color);
+  border-radius: var(--md-border-radius);
+  overflow: hidden;
   width: 95%;
+}
+
+.product-info-wrapper {
+  padding: 24px;
 }
 
 .product-category {
@@ -61,5 +70,50 @@ img {
   font-family: var(--font-montserrat);
   font-size: 14px;
   font-weight: var(--normal-weight-montserrat);
+}
+
+.product-price-wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.sales-price {
+  color: var(--bg-secondary-color);
+  font-family: var(--font-fraunces);
+  font-size: var(--product-name-size);
+  font-weight: var(--bold-weight-fraunces);
+  margin-right: 24px;
+}
+
+.normal-price {
+  color: var(--text-secondary-color);
+  font-family: var(--font-montserrat);
+  font-size: var(--product-category-size);
+  font-weight: var(--normal-weight-montserrat);
+  text-decoration-line: line-through;
+}
+
+.add-to-cart-btn {
+  align-items: center;
+  background-color: var(--bg-secondary-color);
+  border-radius: var(--sm-border-radius);
+  border: none;
+  color: var(--white-color);
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-to-cart-icon {
+  height: 15px;
+  margin-right: 12px;
+  width: 16px;
+}
+
+.add-to-cart-text {
+  font-family: var(--font-montserrat);
+  font-size: var(--paragraph-size);
+  font-weight: var(--bold-weight-montserrat);
 }
 
