@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: 'hsl(30, 38%, 92%)',
+            white: 'hsl(0, 0%, 100%)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-cream">
+  <div class="flex justify-center content-center">
+    <div class="bg-white w-11/12">
+      <picture>
+        <source media="(min-width:1024px)" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence - Eau de
+        parfum">
+      </picture>
+      <div>
+        <p>Perfume</p>
+        <h1>Gabrielle Essence Eau de Parfum</h1>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
