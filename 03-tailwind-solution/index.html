@@ -8,6 +8,11 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+  rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -20,6 +25,10 @@
             white: 'hsl(0, 0%, 100%)',
             ebonyClay: 'hsl(212, 21%, 14%)',
             stormGray: 'hsl(228, 12%, 48%)'
+          },
+          fontFamily: {
+            montserrat: ['Montserrat', 'sans-serif'],
+            fraunces: ['Fraunces', 'serif']
           }
         }
       }
@@ -35,8 +44,8 @@
         parfum">
       </picture>
       <div>
-        <p>Perfume</p>
-        <h1>Gabrielle Essence Eau de Parfum</h1>
+        <p class="font-montserrat font-medium text-sm">Perfume</p>
+        <h1 class="font-fraunces text-3xl">Gabrielle Essence Eau de Parfum</h1>
       </div>
     </div>
   </div>
