@@ -37,13 +37,14 @@
 </head>
 <body class="bg-dawnPink">
   <div class="flex justify-center items-center min-h-screen">
-    <div class="bg-white w-11/12 rounded-lg overflow-hidden">
-      <picture>
+    <div class="bg-white w-11/12 lg:max-w-[600px] rounded-lg overflow-hidden
+      lg:flex">
+      <picture class="lg:w-1/2">
         <source media="(min-width:1024px)" srcset="./images/image-product-desktop.jpg">
         <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence - Eau de
         parfum" class="max-w-none w-full">
       </picture>
-      <div class="p-6">
+      <div class="p-6 lg:w-1/2">
         <p class="font-montserrat font-medium text-xs tracking-[.5em] uppercase
         text-stormGray mb-3">Perfume</p>
         <h1 class="font-fraunces text-3xl font-bold text-ebonyClay mb-4">Gabrielle Essence Eau de Parfum</h1>
@@ -56,7 +57,7 @@
           <span class="font-montserrat font-medium text-sm text-stormGray line-through">$169.99</span>
         </p>
         <button class="bg-viridian w-full h-12 flex justify-center items-center
-          rounded-lg">
+          rounded-lg lg:hover:brightness-75">
           <img src="./images/icon-cart.svg" alt="" class="mr-3" />
           <span class="text-white font-montserrat font-bold text-sm">
             Add to Cart
