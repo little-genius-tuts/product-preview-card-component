@@ -37,15 +37,31 @@
 </head>
 <body class="bg-dawnPink">
   <div class="flex justify-center items-center min-h-screen">
-    <div class="bg-white w-11/12">
+    <div class="bg-white w-11/12 rounded-lg overflow-hidden">
       <picture>
         <source media="(min-width:1024px)" srcset="./images/image-product-desktop.jpg">
         <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence - Eau de
         parfum">
       </picture>
-      <div>
-        <p class="font-montserrat font-medium text-sm">Perfume</p>
-        <h1 class="font-fraunces text-3xl">Gabrielle Essence Eau de Parfum</h1>
+      <div class="p-6">
+        <p class="font-montserrat font-medium text-xs tracking-[.5em] uppercase
+        text-stormGray mb-3">Perfume</p>
+        <h1 class="font-fraunces text-3xl font-bold text-ebonyClay mb-4">Gabrielle Essence Eau de Parfum</h1>
+        <p class="font-montserrat font-medium text-sm text-stormGray mb-6">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p class="flex items-center mb-5">
+          <span class="font-fraunces font-bold text-3xl text-viridian mr-4">$149.99</span>
+          <span class="font-montserrat font-medium text-sm text-stormGray line-through">$169.99</span>
+        </p>
+        <button class="bg-viridian w-full h-12 flex justify-center items-center
+          rounded-lg">
+          <img src="./images/icon-cart.svg" alt="" class="mr-3" />
+          <span class="text-white font-montserrat font-bold text-sm">
+            Add to Cart
+          </span>
+        </button>
       </div>
     </div>
   </div>
