@@ -1,41 +1,53 @@
-// Descriptive variables
+// Custom variables
 $viridian: hsl(158, 36%, 37%);
 $dawn-pink: hsl(30, 38%, 92%);
 $white: hsl(0, 0%, 100%);
 $ebony-clay: hsl(212, 21%, 14%);
 $storm-gray: hsl(228, 12%, 48%);
 
-
 $font-montserrat: 'Montserrat', sans-serif;
-$normal-weight-montserrat: 500;
-$bold-weight-montserrat: 700;
-
 $font-fraunces: 'Fraunces', serif;
-$bold-weight-fraunces: 700;
 
-$sm-font-size: 12px;
-$xl-font-size: 32px;
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
 
-
-// Functional variables
+// 2. Include any default variable overrides here
 $body-bg: $dawn-pink;
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
 
-// Custom CSS
-.category-name {
-  font-family: $font-montserrat;
-  font-size: $sm-font-size;
-  font-weight: $normal-weight-montserrat;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: $storm-gray;
-}
+// 4. Include any default map overrides here
+$custom-colors: (
+  "viridian": $viridian,
+  "dawn-pink": $dawn-pink,
+  "white": $white,
+  "ebony-clay": $ebony-clay,
+  "storm-gray": $storm-gray
+);
 
-.product-name {
-  font-family: $font-fraunces;
-  font-weight: $bold-weight-fraunces;
-  font-size: $xl-font-size;
-  color: $ebony-clay;
-}
+$custom-font-family: (
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// 5. Include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
 
