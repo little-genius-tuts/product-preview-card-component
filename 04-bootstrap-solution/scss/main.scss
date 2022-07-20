@@ -1,4 +1,41 @@
-body {
-  background-color: tomato;
-  color: white;
+// Descriptive variables
+$viridian: hsl(158, 36%, 37%);
+$dawn-pink: hsl(30, 38%, 92%);
+$white: hsl(0, 0%, 100%);
+$ebony-clay: hsl(212, 21%, 14%);
+$storm-gray: hsl(228, 12%, 48%);
+
+
+$font-montserrat: 'Montserrat', sans-serif;
+$normal-weight-montserrat: 500;
+$bold-weight-montserrat: 700;
+
+$font-fraunces: 'Fraunces', serif;
+$bold-weight-fraunces: 700;
+
+$sm-font-size: 12px;
+$xl-font-size: 32px;
+
+
+// Functional variables
+$body-bg: $dawn-pink;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Custom CSS
+.category-name {
+  font-family: $font-montserrat;
+  font-size: $sm-font-size;
+  font-weight: $normal-weight-montserrat;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: $storm-gray;
 }
+
+.product-name {
+  font-family: $font-fraunces;
+  font-weight: $bold-weight-fraunces;
+  font-size: $xl-font-size;
+  color: $ebony-clay;
+}
+
