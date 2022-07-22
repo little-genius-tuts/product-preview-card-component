@@ -8,11 +8,14 @@ $storm-gray: hsl(228, 12%, 48%);
 $font-montserrat: 'Montserrat', sans-serif;
 $font-fraunces: 'Fraunces', serif;
 
+$lg-letter-spacing: 5px;
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
 $body-bg: $dawn-pink;
+$font-weight-normal: 500;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -26,10 +29,13 @@ $custom-colors: (
   "storm-gray": $storm-gray
 );
 
-$custom-font-family: (
+$custom-font-sizes: (
+  7: 12px,
 );
 
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
 
 // 5. Include remainder of required parts
@@ -50,4 +56,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+.font-montserrat {
+  font-family: $font-montserrat;
+}
+
+.font-fraunces {
+  font-family: $font-fraunces;
+}
+
+.lg-letter-spacing {
+  letter-spacing: $lg-letter-spacing;
+}
+
+.w-90 {
+  width: 90%;
+}
 

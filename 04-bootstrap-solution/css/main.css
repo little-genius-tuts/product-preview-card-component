@@ -58,7 +58,7 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
+  --bs-body-font-weight: 500;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: hsl(30deg, 38%, 92%);
@@ -3100,6 +3100,10 @@ progress {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -3117,7 +3121,7 @@ progress {
 }
 
 .fw-normal {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 .fw-bold {
@@ -6023,6 +6027,21 @@ progress {
   .d-print-none {
     display: none !important;
   }
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
+.lg-letter-spacing {
+  letter-spacing: 5px;
+}
+
+.w-90 {
+  width: 90%;
 }
 
 /*# sourceMappingURL=main.css.map */
