@@ -2442,6 +2442,10 @@ progress {
   width: auto !important;
 }
 
+.w-90 {
+  width: 90% !important;
+}
+
 .mw-100 {
   max-width: 100% !important;
 }
@@ -6038,10 +6042,6 @@ progress {
 
 .lg-letter-spacing {
   letter-spacing: 5px;
-}
-
-.w-90 {
-  width: 90%;
 }
 
 /*# sourceMappingURL=main.css.map */

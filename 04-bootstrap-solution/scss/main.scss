@@ -52,6 +52,22 @@ $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/helpers";
 
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "width"), "values"),
+          (90: 90%),
+        ),
+      ),
+    ),
+  )
+);
+
+
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
@@ -68,7 +84,4 @@ $font-sizes: map-merge($font-sizes, $custom-font-sizes);
   letter-spacing: $lg-letter-spacing;
 }
 
-.w-90 {
-  width: 90%;
-}
 
