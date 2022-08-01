@@ -1,12 +1,13 @@
-# Frontend Mentor - Product preview card component - Vanilla Solution
+# Frontend Mentor - Product preview card component - Tailwind Solution
 
 ## Description
 
-(screenshot de la version Vanilla) + (code a cote?)
+(screenshot de la version Tailwind) + (code a cote?)
 
-Ce dossier correspond a la solution du "Product Preview Card Component" en
-Vanilla CSS. Autrement dit, aucun framework ou librairie CSS n'a ete utilise
-lors du developpement de cette solution.
+Ce dossier correspond a la solution du "Product Preview Card Component" avec
+Tailwind. Tailwind est une utility-first CSS framework. Vous trouverez dans la
+categorie ressources un lien vers la documentation de Tailwind ainsi que des
+articles complementaires.
 
 
 ## Youtube
@@ -17,13 +18,14 @@ lors du developpement de cette solution.
 
 ## Prerequis
 
-Rien !
-Ce projet utilise HTML et CSS.
+Ce projet utilise HTML, CSS et Tailwind. Cela dit, l'installation de Tailwind
+passe par un CDN. Si vous ne connaissez pas ce terme, regardez les ressources,
+je vous ai ajoute un lien. Pour faire simple, ici, l'utilisation du framework
+se fait via un lien dans les metas, comme pour les font Google.
 
-Cependant, il est vivement conseille d'utliser VsCode comme editeur de texte,
-notamment pour l'extension Live Server.
-
-De plus, l'utilisation de Google Chrome ou Mozilla Firefox est recommande.
+Il est vivement conseille d'utliser VsCode comme editeur de texte,
+notamment pour l'extension Live Server. L'utilisation de Google Chrome ou Mozilla Firefox
+est recommande.
 
 
 ## Installation
@@ -40,7 +42,7 @@ $ git clone https://
 
 Se placer dans le repertoire de la solution
 ```
-$ cd ./product-preview-card-component/02-vanilla-css-solution
+$ cd ./product-preview-card-component/03-tailwind-solution
 ```
 
 Lancer le projet avec VsCode
