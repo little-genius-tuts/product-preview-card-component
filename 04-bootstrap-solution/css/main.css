@@ -7593,6 +7593,10 @@ textarea.form-control-lg {
   max-width: 100% !important;
 }
 
+.mw-600 {
+  max-width: 680px !important;
+}
+
 .vw-100 {
   width: 100vw !important;
 }
@@ -11235,6 +11239,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.max-w {
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
