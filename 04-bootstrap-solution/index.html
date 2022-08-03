@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+  rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link
+    href="./css/main.css"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <div class="d-flex justify-content-center align-items-center min-vh-100
+    container">
+    <div class="bg-white w-90 overflow-hidden rounded-3 row mw-600">
+      <picture class="p-0 col-lg-6">
+        <source media="(min-width:992px)" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence - Eau de
+        parfum" class="w-100 h-100">
+      </picture>
+      <div class="p-3 col-lg-6">
+        <p class="text-uppercase text-storm-gray font-montserrat fw-normal lt-5">Perfume</p>
+        <h1 class="font-fraunces fw-bold display-5">Gabrielle Essence Eau De Parfum</h1>
+        <p class="fs-6 font-montserrat text-storm-gray">
+          A floral, solar, and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p class="d-flex align-items-center">
+          <span class="font-fraunces fw-bold display-4 text-viridian me-3">
+            $149.99
+          </span>
+          <span class="font-montserrat text-storm-gray text-decoration-line-through">
+            $169.99
+          </span>
+        </p>
+        <button class="btn btn-viridian w-100 d-flex justify-content-center align-items-center">
+          <img class="me-2" src="./images/icon-cart.svg" alt="" />
+          <span class="font-montserrat fw-bold">Add to Cart</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

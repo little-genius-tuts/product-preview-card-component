@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "sass": "^1.53.0"
+  },
+  "scripts": {
+    "sass": "node_modules/.bin/sass scss/main.scss css/main.css --watch"
+  }
+}
