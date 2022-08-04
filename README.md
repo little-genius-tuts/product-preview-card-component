@@ -13,9 +13,32 @@ chaine Youtube Brocode. Chaque solution propose une approche via un ensemble de
 technologies (Tailwind, Bootstrap, Sasss, etc.).
 
 
-## 2. Organisation des fichiers
+## 2. Files Structure
 
-(source forme d'une arbre)
+```
+product-preview-card-component
+|   README.md
+|---01-starter-kit
+|   |   INSTRUCTIONS.md # Challenge Instructions
+|   |   README.md
+|   |   index.html
+|   |   style-guide.md # Colors, font families, sizes
+|   |---design # Mockups to create your own version or follow along
+|   |   |   active-states.jpg
+|   |   |   desktop-design.jpg
+|   |   |   desktop-preview.jpg
+|   |   |   mobile-design.jpg
+|   |---images # Images related to the project
+|---02-vanilla-css-solution
+|   |   |   README.md # Documentation set up
+|   |   |   index.html
+|   |   |---css
+|   |   |   |   normalize.css
+|   |   |   |   main.css
+|   |   |---images # Images related to the project
+|---03-tailwind-solution
+|---04-bootstrap-solution
+```
 
 
 ## 3. Technologies
