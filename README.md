@@ -1,19 +1,29 @@
 # Product preview card component
 
-## 1. Description
+## 1. What is it?
 
-(hero image).
+![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-Code source relatif au Product preview card component. Ce repository Github
-contient le kit de demarrage du projet ainsi que des solutions
-realisees avec differentes technologies.
+Source code related to the Product preview card component. This Github repository
+contains the starter kit of the project as well as solutions
+solutions realized with different technologies.
 
-Les differentes solutions de ce projet ont ete developpees dans le cadre de la
-chaine Youtube Brocode. Chaque solution propose une approche via un ensemble de
-technologies (Tailwind, Bootstrap, Sasss, etc.).
+The different solutions of this project have been developed for the Brocode
+Youtube channel. Each solution proposes an approach via a set of
+technologies (Tailwind, Bootstrap, Sass, etc.).
 
 
-## 2. Files Structure
+## 2. Technologies
+
+- HTML
+- CSS
+- Tailwind - only for the Tailwind solution folder
+- Bootstrap - only for the Bootstrap solution folder
+- Sass - only for the Bootstrap solution folder
+- Npm - only for the Bootstrap solution folder
+
+
+## 3. Files Structure
 
 ```
 product-preview-card-component
@@ -28,27 +38,27 @@ product-preview-card-component
 |   |   |   desktop-design.jpg
 |   |   |   desktop-preview.jpg
 |   |   |   mobile-design.jpg
-|   |---images # Images related to the project
+|   |---images # Project images
 |---02-vanilla-css-solution
-|   |   |   README.md # Documentation set up
+|   |   |   README.md # Solution instructions
 |   |   |   index.html
 |   |   |---css
 |   |   |   |   normalize.css
 |   |   |   |   main.css
-|   |   |---images # Images related to the project
+|   |   |---images # Project images
 |---03-tailwind-solution
+|   |   |   README.md # Solution instructions
+|   |   |   index.html
+|   |   |---images # Project images
 |---04-bootstrap-solution
+|   |   |   README.md # Solution instructions
+|   |   |   index.html
+|   |   |   package.json
+|   |   |---css # compiled main.scss to main.css
+|   |   |---scss # main.scss
+|   |   |---images # Project images
+|   |   |---node_modules # Bootstrap + Sass
 ```
-
-
-## 3. Technologies
-
-  - HTML.
-  - CSS.
-  - Tailwind - uniquement pour le dossier Tailwind solution.
-  - Bootstrap - uniquement pour le dossier Bootstrap solution.
-  - Sass - uniquement pour le dossier Bootstrap solution.
-  - Npm - uniquement pour le dossier Bootstrap solution.
 
 
 ## 4. Follow Allong
