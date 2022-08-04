@@ -2,7 +2,9 @@
 
 ## 1. What is it?
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Product preview card component coding
+challenge](./01-starter-kit/design/desktop-design.jpg)
+
 
 Source code related to the Product preview card component. This Github repository
 contains the starter kit of the project as well as solutions
